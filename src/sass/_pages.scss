@@ -1,4 +1,6 @@
 @import "vars";
+
+// Index
 .home {
   h1 {
     font-size: 6rem;
@@ -9,11 +11,18 @@
   }
   .socials {
     font-size: 2.5rem;
-    .social-icon {
-      margin-right: 1rem;
+    a {
+      display: inline-block;
+      color: #fff;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        opacity: 0.8;
+        transform: translateY(7px);
+        color: $secondary-color;
+      }
     }
   }
-
   .shortcuts {
     position: absolute;
     bottom: 15%;
@@ -21,6 +30,38 @@
     p {
       font-family: $main-font;
       font-size: 1.3rem;
+    }
+    .link {
+      display: inline-block;
+      transition: all 0.3s ease-in;
+      &:hover {
+        transform: translateX(10px);
+      }
+    }
+    a {
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  // Animations
+  h1,
+  h2,
+  .socials {
+    animation: headingTransition;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes headingTransition {
+    0% {
+      transform: translateX(-500px);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
     }
   }
 }

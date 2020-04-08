@@ -11,16 +11,45 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home">
-      <h1>Yuliy Sozin</h1>
+      <h1>
+        Yuliy <span style={{ color: "#aa9078" }}>Sozin</span>
+      </h1>
       <h2>Toronto Based Front-End Developer</h2>
       <div className="socials">
-        <FontAwesomeIcon className="social-icon" icon={["fab", "twitter"]} />
-        <FontAwesomeIcon
-          className="social-icon"
-          icon={["fab", "dribbble-square"]}
-        />
-        <FontAwesomeIcon className="social-icon" icon={["fab", "instagram"]} />
-        <FontAwesomeIcon className="social-icon" icon={["fab", "github"]} />
+        <a
+          href="https://twitter.com/DesignsJulius"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon className="social-icon" icon={["fab", "twitter"]} />
+        </a>
+        <a
+          href="https://dribbble.com/DrJULIK"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="social-icon"
+            icon={["fab", "dribbble-square"]}
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/julius.designs/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon
+            className="social-icon"
+            icon={["fab", "instagram"]}
+          />
+        </a>
+        <a
+          href="https://github.com/DrJulik"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon className="social-icon" icon={["fab", "github"]} />
+        </a>
       </div>
       <div className="shortcuts">
         <p>

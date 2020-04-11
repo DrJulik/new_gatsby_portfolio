@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Yuliy Sozin | Toronto based WebDeveloper`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Yuliy Sozin`,
+    description: `Portfolio of Yuliy Sozin, Toronto based Front End WebDeveloper`,
+    author: `Yuliy Sozin`,
   },
   plugins: [
     {

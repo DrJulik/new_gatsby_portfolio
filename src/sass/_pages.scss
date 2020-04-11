@@ -65,3 +65,14 @@
     }
   }
 }
+@media (max-width: 768px) {
+  .home {
+    h1 {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+    .shortcuts {
+      bottom: 7%;
+    }
+  }
+}

@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import "../sass/styles.scss"
 library.add(fab)
 
 const IndexPage = () => (

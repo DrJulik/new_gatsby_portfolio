@@ -24,12 +24,8 @@ const Layout = ({ children }) => {
       />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `5% auto`,
           padding: `0 1.0875rem 1.45rem`,
-          height: "50vh",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
           maxWidth: "1400px",
         }}
       >

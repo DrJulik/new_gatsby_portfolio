@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
-@import "pages";
-@import "components";
+@import "/pages/pages";
+@import "/components/components";
 @import "vars";
 
 * {
@@ -188,16 +188,10 @@ html {
   font: 112.5%/1.45em $main-font, serif;
   box-sizing: border-box;
 }
-* {
-  box-sizing: inherit;
-}
-*:before {
-  box-sizing: inherit;
-}
-*:after {
-  box-sizing: inherit;
-}
+
 body {
+  // overflow: hidden;
+
   color: #fff;
   background-color: $primary-color;
   background: url(../images/background1.jpg);

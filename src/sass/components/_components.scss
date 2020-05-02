@@ -1,0 +1,18 @@
+@import "vars";
+@import "navbar";
+@import "footer";
+
+// ALL LINKS
+a {
+  display: inline-block;
+  color: $secondary-color;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}

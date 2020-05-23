@@ -1,0 +1,9 @@
+.layout {
+  margin: 5% auto;
+  padding: 0 1.0875rem 1.45rem;
+  max-width: 1400px;
+
+  @media (max-width: 768px) {
+    margin: 20% auto;
+  }
+}

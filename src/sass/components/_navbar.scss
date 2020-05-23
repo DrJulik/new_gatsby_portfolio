@@ -8,8 +8,8 @@
   }
 }
 
-.navbar-toggler {
-  border: none;
+.navbar-light .navbar-toggler {
+  border-color: $secondary-color-light;
 }
 .navbar-light .navbar-nav .nav-link,
 a.nav-link {

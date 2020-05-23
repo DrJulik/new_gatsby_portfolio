@@ -22,13 +22,7 @@ const Layout = ({ children }) => {
         // setNavbarState={setNavbarState}
         siteTitle={data.site.siteMetadata.title}
       />
-      <div
-        style={{
-          margin: `20% auto`,
-          padding: `0 1.0875rem 1.45rem`,
-          maxWidth: "1400px",
-        }}
-      >
+      <div className="layout">
         <main>{children}</main>
       </div>
       <Footer />

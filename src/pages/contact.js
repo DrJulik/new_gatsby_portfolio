@@ -10,7 +10,7 @@ const about = () => {
       <div className="contact-container">
         <div className="info">
           <h2 className="page-title">Contact Me</h2>
-          <p>
+          <p style={{ margin: "0" }}>
             Whether you want me to look at your design or you are looking for
             some to design and build your next project from scratch, I am here
             for you! Do not hesitate to contact me for any additional info or
@@ -21,9 +21,7 @@ const about = () => {
           </p>
           <br />
           My email is:
-          <span className="text-secondary">
-            <b> yuliysozin@gmail.com</b>
-          </span>
+          <span> yuliysozin@gmail.com</span>
           <div className="socials">
             <a
               href="https://twitter.com/DesignsJulius"

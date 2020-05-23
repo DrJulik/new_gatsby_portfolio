@@ -3,6 +3,8 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
 
+  .info span {
+  }
   .page-title {
     position: fixed;
     bottom: 10%;
@@ -10,6 +12,10 @@
     font-size: 14rem;
     color: $secondary-color-transperant;
     z-index: -1;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .socials {
@@ -26,12 +32,17 @@
       }
     }
   }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 #form {
   position: relative;
-  width: 35rem;
-  margin: 2rem;
+  // width: 35rem;
+  width: 100%;
+  // margin: 2rem;
 }
 
 input {

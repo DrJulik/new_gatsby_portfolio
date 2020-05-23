@@ -189,6 +189,8 @@ html {
   box-sizing: border-box;
   position: relative;
   min-height: 100%;
+  // attempt to fix scrolling issues on mobile
+  background-color: transparent;
 }
 
 body {

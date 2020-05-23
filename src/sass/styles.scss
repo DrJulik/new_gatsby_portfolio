@@ -187,6 +187,8 @@ textarea {
 html {
   font: 112.5%/1.45em $main-font, serif;
   box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
 }
 
 body {

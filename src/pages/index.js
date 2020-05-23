@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

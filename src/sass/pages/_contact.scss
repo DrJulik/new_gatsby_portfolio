@@ -4,6 +4,7 @@
   align-items: center;
 
   .info span {
+    color: $secondary-color;
   }
   .page-title {
     position: fixed;
@@ -20,6 +21,7 @@
 
   .socials {
     font-size: 2.5rem;
+    margin: 1rem 0;
     a {
       display: inline-block;
       color: #fff;

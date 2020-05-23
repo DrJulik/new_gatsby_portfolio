@@ -9,7 +9,7 @@ const about = () => {
       <SEO title="Contact Me" />
       <div className="contact-container">
         <div className="info">
-          <h2>Contact Me</h2>
+          <h2 className="page-title">Contact Me</h2>
           <p>
             Whether you want me to look at your design or you are looking for
             some to design and build your next project from scratch, I am here
@@ -75,15 +75,33 @@ const about = () => {
             action="https://formspree.io/julius.webdesigns@gmail.com"
             method="POST"
           >
-            <input id="name" name="name" type="text" placeholder="NAME" />
-            <input id="email" name="email" type="email" placeholder="E-MAIL" />
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="NAME"
+              aria-label="Name Input"
+            />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="E-MAIL"
+              aria-label="Email Input"
+            />
             <textarea
               id="message"
               name="message"
               type="text"
               placeholder="MESSAGE"
+              aria-label="Message input"
             ></textarea>
-            <input id="submit" type="submit" value="SUBMIT" />
+            <input
+              id="submit"
+              type="submit"
+              value="SUBMIT"
+              aria-label="Submit button"
+            />
           </form>
         </div>
       </div>

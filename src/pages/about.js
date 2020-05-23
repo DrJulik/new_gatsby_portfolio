@@ -16,7 +16,7 @@ const about = () => {
               alignItems: "center",
             }}
           >
-            <h2>About Me</h2>
+            <h2 className="page-title">About Me</h2>
             <div style={{ width: "100%" }} className="about-image">
               <Image filename="portrait.jpg" alt="my face" />
             </div>

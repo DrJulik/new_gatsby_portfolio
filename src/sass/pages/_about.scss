@@ -1,9 +1,18 @@
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+  grid-gap: 2rem 0;
   justify-content: center;
   align-items: center;
+
+  .page-title {
+    position: fixed;
+    bottom: 10%;
+    left: 2%;
+    font-size: 14rem;
+    color: $secondary-color-transperant;
+    z-index: -1;
+  }
 
   .text-image-container {
     padding: 0 30% 0 30%;

@@ -211,6 +211,10 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 
+  @media (max-width: 768px) {
+    background-attachment: unset;
+  }
+
   &:after {
     content: "";
     position: fixed;

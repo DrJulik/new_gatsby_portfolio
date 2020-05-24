@@ -24,26 +24,26 @@ const about = () => {
         </div>
 
         <p>
-          My name is Yuliy and I am a self-taught Front-End Designer and
-          Developer! I prefer minimalistic design, which delivers the best user
-          experience with clear and user-friendly interfaces. Whether you need a
-          simple, one-page solution, or a complex, multi-page website, I am at
-          your service! Here is a list of technologies that I use in my work:
+          My name is Yuliy and I am a self-taught Front-End Developer! Whether
+          you need a simple, one-page solution, or a complex, multi-page
+          website, I am at your service! I have experience creating static
+          brochure websites, large and small custom WordPress themes and small
+          to medium front end applications. Here is a list of technologies that
+          I use in my work:
         </p>
         <ul>
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript (ES6)</li>
-          <li>CSS Frameworks (Bootstrap, Materialize etc)</li>
-          <li>SASS</li>
-          <li>Flexbox and Grid</li>
+          <li>React</li>
+          <li>Gatsby </li>
         </ul>
         <ul>
+          <li>Various CMSs (WordPress, Squarespace etc)</li>
+          <li>CSS Frameworks (Bootstrap, Materialize etc)</li>
+          <li>SASS</li>
           <li>Git</li>
-          <li>Responsive Design (Media queries, rem units)</li>
-          <li>NPM</li>
-          <li>WordPress</li>
-          <li>VueJS</li>
+          <li>Npm</li>
         </ul>
       </div>
     </Layout>

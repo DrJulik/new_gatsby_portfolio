@@ -21,7 +21,7 @@ const about = () => {
           </p>
           <br />
           My email is:
-          <span> yuliysozin@gmail.com</span>
+          <span> julius.webdesigns@gmail.com</span>
           <div className="socials">
             <a
               href="https://twitter.com/DesignsJulius"

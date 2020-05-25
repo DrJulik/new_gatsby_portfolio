@@ -7,6 +7,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  ::selection {
+    background-color: $tertiary-color;
+    color: $secondary-color;
+  }
 }
 article,
 aside,
@@ -188,9 +192,7 @@ html {
   font: 112.5%/1.45em $main-font, serif;
   box-sizing: border-box;
   position: relative;
-  min-height: 100vh;
-  // attempt to fix scrolling issues on mobile
-  background-color: transparent;
+  min-height: 100%;
 }
 
 body {

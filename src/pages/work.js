@@ -10,6 +10,10 @@ const about = () => {
       <SEO title="Work" id="top" />
       <div className="work-container">
         <h1 className="page-title">My Projects</h1>
+        <p style={{ marginBottom: "2rem", fontSize: "0.85rem" }}>
+          *Note: not all projects have urls and githubs, for privacy reasons. If
+          you really wanna see email me, and I'll share. Maybe.
+        </p>
         <Projects />
         <BackToTopBtn />
       </div>

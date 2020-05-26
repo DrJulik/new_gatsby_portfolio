@@ -68,7 +68,14 @@ const about = () => {
 
         <div id="form">
           <h3>If you want a quote or for other general inquiries:</h3>
-          <form className="topBefore" name="contact" method="POST" netlify>
+          <form
+            className="topBefore"
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
             <input
               id="name"
               name="name"

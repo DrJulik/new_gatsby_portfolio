@@ -4,7 +4,15 @@ import Fade from "react-reveal/Fade"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faShareSquare } from "@fortawesome/free-solid-svg-icons"
 
-const Project = ({ title, description, github, url, main_image, stack }) => {
+const Project = ({
+  title,
+  description,
+  github,
+  url,
+  main_image,
+  stack,
+  project_gallery,
+}) => {
   return (
     <Fade bottom cascade>
       <article className="project">
@@ -17,6 +25,20 @@ const Project = ({ title, description, github, url, main_image, stack }) => {
         <div className="project-info">
           <h3>{title}</h3>
           <p className="project-desc">{description}</p>
+          {/* <div className="project-gallery">
+            {project_gallery &&
+              project_gallery.map(item => {
+                console.log({ ...item })
+
+                // return (
+                //   <Image
+                //     key={{ ...item.formats.small.childImageSharp.id }}
+                //     fluid={{ ...item.formats.small.childImageSharp.fluid }}
+                //     className="project-img"
+                //   />
+                // )
+              })}
+          </div> */}
           <div className="project-stack">
             {stack.map(stack => {
               return <span key={stack.id}>{stack.stack_description}</span>

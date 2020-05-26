@@ -96,6 +96,19 @@
     word-spacing: 3px;
     color: var(--clr-grey-3);
   }
+
+  .project-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+    margin: 0.7rem 0;
+
+    .gatsby-image-wrapper img {
+      border: 0.5px solid $secondary-color-light;
+      height: 200px;
+    }
+  }
+
   .project-stack {
     margin-bottom: 1rem;
   }

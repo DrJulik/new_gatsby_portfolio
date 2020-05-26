@@ -14,6 +14,7 @@ const query = graphql`
           id
           stack_description
         }
+
         main_image {
           childImageSharp {
             fluid(maxWidth: 1200, quality: 100) {

@@ -68,11 +68,7 @@ const about = () => {
 
         <div id="form">
           <h3>If you want a quote or for other general inquiries:</h3>
-          <form
-            className="topBefore"
-            action="https://formspree.io/julius.webdesigns@gmail.com"
-            method="POST"
-          >
+          <form className="topBefore" name="contact" method="POST" netlify>
             <input
               id="name"
               name="name"

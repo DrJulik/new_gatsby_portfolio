@@ -75,7 +75,12 @@ const about = () => {
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <input type="hidden" name="form-name" value="contact" />
+            <input
+              type="hidden"
+              name="form-name"
+              value="contact"
+              aria-label="hidden input"
+            />
             <input
               id="name"
               name="name"

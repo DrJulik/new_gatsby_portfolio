@@ -11,6 +11,7 @@ const Project = ({
   url,
   main_image,
   stack,
+  dribbble,
   project_gallery,
 }) => {
   return (
@@ -53,6 +54,12 @@ const Project = ({
             </a>
             <a href={url} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
+            </a>
+            <a href={dribbble} target="_blank" rel="noreferrer">
+              <FontAwesomeIcon
+                icon={["fab", "dribbble-square"]}
+                className="project-icon"
+              />
             </a>
           </div>
         </div>

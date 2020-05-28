@@ -10,6 +10,7 @@ const query = graphql`
         title
         id
         github
+        dribbble
         stack {
           id
           stack_description

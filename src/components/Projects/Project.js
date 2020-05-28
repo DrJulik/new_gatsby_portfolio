@@ -46,21 +46,30 @@ const Project = ({
             })}
           </div>
           <div className="project-links">
-            <a href={github} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon
-                className="project-icon"
-                icon={["fab", "github-square"]}
-              />
-            </a>
-            <a href={url} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faShareSquare} className="project-icon" />
-            </a>
-            <a href={dribbble} target="_blank" rel="noreferrer">
-              <FontAwesomeIcon
-                icon={["fab", "dribbble-square"]}
-                className="project-icon"
-              />
-            </a>
+            {github && (
+              <a href={github} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  className="project-icon"
+                  icon={["fab", "github-square"]}
+                />
+              </a>
+            )}
+            {url && (
+              <a href={url} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={faShareSquare}
+                  className="project-icon"
+                />
+              </a>
+            )}
+            {dribbble && (
+              <a href={dribbble} target="_blank" rel="noreferrer">
+                <FontAwesomeIcon
+                  icon={["fab", "dribbble-square"]}
+                  className="project-icon"
+                />
+              </a>
+            )}
           </div>
         </div>
       </article>

@@ -61,7 +61,10 @@ const IndexPage = () => (
         </p>
         <p>
           Potential Employer?{" "}
-          <a className="link" href="/">
+          <a
+            className="link"
+            href="https://drive.google.com/file/d/1d68I6vV6jDDZY3pQgEsL_mZRjN34xdnQ/view?usp=sharing"
+          >
             My resume!
           </a>
         </p>

@@ -64,6 +64,8 @@ const IndexPage = () => (
           <a
             className="link"
             href="https://drive.google.com/file/d/1d68I6vV6jDDZY3pQgEsL_mZRjN34xdnQ/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             My resume!
           </a>
